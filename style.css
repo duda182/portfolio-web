@@ -1,9 +1,42 @@
 body {
-  font-family: Arial;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #1e1e2f, #2c2c54);
+  color: white;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
   text-align: center;
-  margin-top: 50px;
 }
 
 h1 {
-  color: #333;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: #cfcfcf;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: #ffffff10;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
 }
